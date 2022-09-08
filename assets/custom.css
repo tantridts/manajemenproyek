@@ -1,0 +1,229 @@
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+     #bungkus {
+        width: 100%;
+        background:#00769F;
+    }
+    
+    #page-wrapper {
+        padding: 15px 15px;
+        min-height: 600px;
+        background:#F3F3F3;
+       
+    }
+    #page-inner {
+        width:100%;
+        margin:10px 20px 10px 0px;
+        background-color:#fff!important;
+        padding:10px;
+        min-height:1200px;
+    }
+    
+    .text-center {
+        text-align:center;
+    }
+    .no-boder {
+        border:1px solid #f3f3f3;
+    }
+    h2 {
+        color: #464646;
+    }
+    h5 {
+        padding-top:10px;
+    }
+    .square-btn-adjust {
+        border: 0px solid transparent; 
+       -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    
+    }
+    p {
+        font-size:16px;
+        line-height:25px;
+        padding-top:20px;
+    }
+    /*==============================================
+       DASHBOARD STYLES    
+        =============================================*/
+    .panel-back {
+        background-color:#F8F8F8;
+    
+    }
+       .noti-box {
+    min-height: 100px;
+    padding: 20px;
+    }
+    
+        .noti-box .icon-box {
+    display: block;
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    }
+    .text-box p{
+        margin: 0 0 3px;
+    }
+    .main-text {
+        font-size: 25px;
+        font-weight:600;
+    }
+    .set-icon {
+        -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    
+    }
+         /*CHAT PANEL*/
+     .chat-panel .panel-body {
+    height: 450px;
+    overflow-y: scroll;
+    }
+     .chat-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+     .chat-box li {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #fff;
+    }
+     .chat-box li.left .chat-body {
+    margin-left: 90px;
+    }
+     .chat-box li .chat-body p {
+    margin: 0;
+    color: #00769F;
+    }
+    .chat-img>img {
+        margin-left:20px;
+    }
+    
+    /*==============================================
+        MENU STYLES    
+        =============================================*/
+    .navbar-cls-top .navbar-brand {
+        color: #fff;
+    background: #00769F;
+    width: 260px;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    }
+    .active-menu {
+        background-color:#fff!important;
+    }
+    
+    
+    
+    .nav-second-level li,
+    .nav-third-level li {
+        border-bottom: none;
+    }
+    
+    .nav-second-level li a {
+        padding-left: 37px;
+    }
+    
+    .nav-third-level li a {
+        padding-left: 55px;
+    }
+    .sidebar-collapse , .sidebar-collapse .nav{
+        background:none;
+    }
+    .sidebar-collapse .nav {
+        padding:0;
+    }
+    .sidebar-collapse .nav > li > a {
+        color:#464646;
+        background:#fff;
+        text-shadow:none;
+        
+    }
+    .sidebar-collapse > .nav > li > a {
+        padding:15px 10px;
+    }
+    .sidebar-collapse > .nav > li {
+        border-bottom: 0px solid #fff;
+        text-decoration-line: none;
+    }
+    .sidebar-collapse .nav > li > a:hover,
+    .sidebar-collapse .nav > li > a:focus {
+        
+        background:#00769F;
+        outline:0;
+    }
+    .navbar-side {
+        border:none;
+        background-color: #fff;
+        
+    }
+    .navbar-cls-top {
+        background:#00769F;
+        border-bottom:none;
+        
+    }
+    .navbar-cls-top .navbar-brand:hover {
+    
+    background: #00769F;
+    color:#fff;
+    
+    }
+    
+    .navbar-default {
+    border:0px solid #00769F;
+         
+    }
+    .navbar-header {
+        background: #00769F;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #00769F;
+    }
+    .navbar-default .navbar-toggle {
+    border-color: #fff;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+    }
+    .nav > li > a > i {
+        margin-right:10px;
+    }
+
+    /*==============================================
+        MEDIA QUERIES     
+        =============================================*/
+     
+     @media(min-width:768px) {
+         #page-wrapper{
+                   margin: 0 0 0 260px;
+            padding: 15px 30px;
+            min-height: 1200px;
+            
+        }
+        
+        
+        .navbar-side {
+            z-index: 1;
+            position: absolute;
+            width: 260px;
+        }
+    
+       .navbar {
+     border-radius: 0px; 
+    }
+       
+    }
